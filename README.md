@@ -10,3 +10,5 @@ Additionally, mailto: within a hyperlink (<a>) was used to create a link that op
 
 #How to properly set up the link of the video, audio and img src:
 When cloning from github, add the parent's folder name in the src before "/" in order to see the video, audio and img but if extracted the zip file there is no need to do that. 
+
+#To start the application, navigate to the index.html and hit the Go Live Button on your vs code in order to run the application
