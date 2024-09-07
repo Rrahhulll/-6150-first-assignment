@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navdiv">
+        <div class="logo"><a href="#">First Assignment</a></div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="wrapper">
+        <div class="contact-container">
+          <div class="contact-left">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <h2>Get in touch</h2>
+              <input
+                type="hidden"
+                name="access_key"
+                value="6548edd5-3cc6-4bf1-a15d-5ff5ccb0539e"
+              />
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                class="contact-inputs"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                class="contact-inputs"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                class="contact-inputs"
+                required
+              ></textarea>
+              <div class="contact-info">
+                <p><strong>Phone:</strong> +857 452 3573</p>
+                <p>
+                  <strong>Email:</strong>
+                  <a href="mailto:sharma.rahul1@northeastern.edu"
+                    >sharma.rahul1@northeastern.edu</a
+                  >
+                </p>
+              </div>
+              <button class="submit" type="submit">
+                Submit <img src="/images/arrow_icon.png" alt="submit button" />
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="contact-right">
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Rahul</td>
+                <td>abc@mail.com</td>
+              </tr>
+              <tr>
+                <td>Saksham</td>
+                <td>xyz@mail.com</td>
+              </tr>
+              <tr>
+                <td>Atharva</td>
+                <td>123@mail.com</td>
+              </tr>
+              <tr>
+                <td>Rohan</td>
+                <td>456@mail.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Home</h4>
+            <ul>
+              <li><a href="index.html">First Page</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>About</h4>
+            <ul>
+              <li><a href="about.html">About Page</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="contact.html">watch</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
