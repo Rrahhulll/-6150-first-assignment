@@ -8,6 +8,7 @@ In this assignment, the <video> and <audio> tags were used to embed multimedia f
 
 Additionally, mailto: within a hyperlink (<a>) was used to create a link that opens the user’s default email client, allowing easy communication directly from the webpage. Hyperlinks were also used to connect to external pages, enhancing navigation. Overall, these tags combined to create a functional and engaging web page.
 
+#IF NEEDED
 #How to properly set up the link of the video, audio and img src:
 When cloning from github, add the parent's folder name in the src before "/" in order to see the video, audio and img but if extracted the zip file there is no need to do that(IF REQUIRED). 
 
