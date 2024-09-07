@@ -109,11 +109,16 @@ main {
   display: block;
   max-width: 100%;
 }
+.audiomain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .audio-container {
-  margin-top: 20px;
-  background: #f9f9f9;
+  margin: 20px auto;  background: #f9f9f9;
   padding: 20px;
+  margin: 20px 0;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 90%;
@@ -152,6 +157,37 @@ main {
   margin: 0 auto;
 }
 
+.services{
+  /* background-color: black; */
+  color: white;
+  padding: 20px;
+}
+
+.services h2{
+  color: red;
+}
+.service-info h4{
+  margin: 15px 0px;
+}
+.services-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  gap: 1.5rem;
+}
+.service-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 400px;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  border: 2px solid white;
+  transition:  0.4s ease-in-out;
+  padding: 10px;
+}
+
 .contact-container {
   flex: 1;
   max-width: 1000px;
@@ -159,6 +195,18 @@ main {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
+}
+.service-info{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project{
+  width: 250px;
+  border-radius: 5px;
+  display: block;
+  margin: 10px auto;
 }
 
 .contact-left {
