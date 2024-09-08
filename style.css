@@ -202,6 +202,7 @@ main {
   align-items: center;
   justify-content: center;
 }
+
 .project{
   width: 250px;
   border-radius: 5px;
@@ -367,4 +368,3 @@ ul{
     width: 100%;
 }
 }
-
