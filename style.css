@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-* {
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
   text-decoration: none;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   background: radial-gradient(circle at center, #ffffff, #24262b);
+  line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
@@ -289,15 +292,10 @@ textarea {
 .contact-info strong {
   font-weight: bold;
 }
-body{
-	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
+.tel, .tel1{
+  color: #000;
 }
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-}
+
 .container{
 	max-width: 1170px;
 	margin:auto;
