@@ -169,6 +169,12 @@ main {
 .service-info h4{
   margin: 15px 0px;
 }
+.service-info p{
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .services-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -265,10 +271,12 @@ textarea {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
+  color: black;
 }
 
 .contact-right th {
   background-color: #f2f2f2;
+  color: black;
 }
 
 .contact-info p {
