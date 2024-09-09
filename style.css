@@ -165,6 +165,7 @@ main {
 
 .services h2{
   color: black;
+  margin: 10px;
 }
 .service-info h4{
   margin: 15px 0px;
@@ -255,7 +256,7 @@ textarea {
 
 .contact-right {
   /* flex: 1; */
-  margin: 20px auto;
+  margin: 10px auto;
   display: flex;
   align-items: center;
   justify-content: center;
