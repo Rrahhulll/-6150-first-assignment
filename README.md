@@ -13,7 +13,7 @@ In this assignment, the `<video>` and `<audio>` tags were used to embed multimed
 Additionally, `mailto:` within a hyperlink (`<a>`) was used to create a link that opens the user’s default email client, allowing easy communication directly from the webpage. Hyperlinks were also used to connect to external pages, enhancing navigation. Overall, these tags combined to create a functional and engaging web page.
 
 ## IF REQUIRED
-When cloning from GitHub, add a parent folder name and include it in the `src` attribute before "/" to view the video, audio, and images. However, if you extract the zip file, there is no need to do that (IF REQUIRED). 
+When cloning from GitHub, if you add a parent folder, include it in the `src` attribute before "/" to view the video, audio, and images. However, if you extract the zip file, there is no need to do that. 
 
 ## Starting the Application
 To start the application, navigate to the `index.html` and hit the Go Live Button in your VS Code to run the application.
